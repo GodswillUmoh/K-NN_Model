@@ -10,6 +10,10 @@ _K-NN does not assume any underlying data distribution, making it flexible for v
 + Lazy Learning:
 _The model does not build an explicit training model; instead, it memorizes the training data and performs computation during prediction._
 
++ How K-NN Works
+_1. Choose the Number of Neighbors (K): Select the value of K, which represents the number of closest data points (neighbors) to consider for making predictions._
+_2. Measure Distance: Calculate the distance between the data point to predict (query point) and all points in the dataset using a distance metric (e.g., Euclidean distance)._
+
 ## Pros and Cons
 + Pros
 > 1. Simple and easy to implement.
