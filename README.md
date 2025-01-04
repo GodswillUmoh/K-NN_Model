@@ -14,6 +14,9 @@ _The model does not build an explicit training model; instead, it memorizes the 
 _1. Choose the Number of Neighbors (K): Select the value of K, which represents the number of closest data points (neighbors) to consider for making predictions._
 _2. Measure Distance: Calculate the distance between the data point to predict (query point) and all points in the dataset using a distance metric (e.g., Euclidean distance)._
 
+### Euclidean Distance
+> Euclidean distance is a measure of the straight-line distance between two points in a multidimensional space. It is one of the most commonly used distance metrics in machine learning and statistical analysis, particularly in algorithms like K-Nearest Neighbors (K-NN), K-Means Clustering, and Support Vector Machines (SVM).
+
 ## Pros and Cons
 + Pros
 > 1. Simple and easy to implement.
