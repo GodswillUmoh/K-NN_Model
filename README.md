@@ -28,3 +28,6 @@ _2. Measure Distance: Calculate the distance between the data point to predict (
 > 2. Sensitive to the choice of K and distance metric.
 > 3. Performs poorly on high-dimensional data due to the "curse of dimensionality."
 
+## Regular Steps
++ Choose the number k of neighbors
++ Take the k nearest neighbors of the two data points, according to the Euclidean Distance
