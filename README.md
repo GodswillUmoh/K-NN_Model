@@ -31,6 +31,8 @@ _2. Measure Distance: Calculate the distance between the data point to predict (
 ## Before and After K-NN Visuals
 + [Click to view graph 1](https://ibb.co/NZ1yg9P)
 + [K-NN Graph 2, Click to view](https://ibb.co/9hDsY37)
+### How do you find the Euclidean Distance?
+[See formula here, click to view](https://ibb.co/FWz194m)
 
 ## Regular Steps for K-NN
 + Choose the number k of neighbors (_Common default value is 5_)
