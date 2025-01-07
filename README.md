@@ -28,6 +28,11 @@ _2. Measure Distance: Calculate the distance between the data point to predict (
 > 2. Sensitive to the choice of K and distance metric.
 > 3. Performs poorly on high-dimensional data due to the "curse of dimensionality."
 
+## Before and After K-NN Visuals
++ [Click to view graph 1](https://ibb.co/NZ1yg9P)
++ [K-NN Graph 2, Click to view](https://ibb.co/9hDsY37)
+
 ## Regular Steps
 + Choose the number k of neighbors
 + Take the k nearest neighbors of the two data points, according to the Euclidean Distance
++ Among these k neighbors, count the number of data points in each category
