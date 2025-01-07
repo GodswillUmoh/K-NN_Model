@@ -33,10 +33,18 @@ _2. Measure Distance: Calculate the distance between the data point to predict (
 + [K-NN Graph 2, Click to view](https://ibb.co/9hDsY37)
 ### How do you find the Euclidean Distance?
 [See formula here, click to view](https://ibb.co/FWz194m)
+_That is square root of the summation of the squares of each cordinates_
 
 ## Regular Steps for K-NN
-+ Choose the number k of neighbors (_Common default value is 5_)
-+ Take the k nearest neighbors of the two data points, according to the Euclidean Distance
-+ Among these k neighbors, count the number of data points in each category
-+ Assign the new data point to the category where you counted the most neighbors
++ 1. Choose the number k of neighbors (_Common default value is 5_)
++ 2. Take the k nearest neighbors of the two data points, according to the Euclidean Distance
++ 3. Among these k neighbors, count the number of data points in each category
++ 4. Assign the new data point to the category where you counted the most neighbors
 + Your model is Ready!
+
+## Activity
+_In the diagram below, there are two category, and a new data point is introduced. The 5 nearest neighbors are rounded, where will the new data point be assigned?_
+[Click to view graph and answer the question](https://ibb.co/M1Py0GQ)
+
+### Hints: 
+_Use Step Number 4 as guide
