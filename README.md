@@ -32,7 +32,9 @@ _2. Measure Distance: Calculate the distance between the data point to predict (
 + [Click to view graph 1](https://ibb.co/NZ1yg9P)
 + [K-NN Graph 2, Click to view](https://ibb.co/9hDsY37)
 
-## Regular Steps
-+ Choose the number k of neighbors
+## Regular Steps for K-NN
++ Choose the number k of neighbors (_Common default value is 5_)
 + Take the k nearest neighbors of the two data points, according to the Euclidean Distance
 + Among these k neighbors, count the number of data points in each category
++ Assign the new data point to the category where you counted the most neighbors
++ Your model is Ready!
